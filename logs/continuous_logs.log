@@ -1,51 +1,701 @@
-[2025-06-05 10:58:50,476: INFO: main: Logging is implemented]
-[2025-06-05 15:39:47,345: INFO: common: yaml file: config/config.yaml loaded successfully]
-[2025-06-05 15:39:47,352: INFO: common: yaml file: params.yaml loaded successfully]
-[2025-06-05 15:41:57,723: INFO: common: yaml file: config/config.yaml loaded successfully]
-[2025-06-05 15:41:57,730: INFO: common: yaml file: params.yaml loaded successfully]
-[2025-06-05 15:41:57,743: INFO: common: created directory at: artifacts]
-[2025-06-05 15:41:57,747: INFO: common: created directory at: artifacts/data_ingestion]
-[2025-06-05 15:41:59,655: INFO: 227420655: File is downloaded]
-[2025-06-05 15:53:05,758: INFO: main: stage Data Ingestion stage initiated]
-[2025-06-05 15:53:05,760: INFO: common: yaml file: config/config.yaml loaded successfully]
-[2025-06-05 15:53:05,761: INFO: common: yaml file: params.yaml loaded successfully]
-[2025-06-05 15:53:05,761: INFO: common: created directory at: artifacts]
-[2025-06-05 15:53:05,762: INFO: common: created directory at: artifacts/data_ingestion]
-[2025-06-05 15:53:07,011: INFO: data_ingestion: File is downloaded]
-[2025-06-05 15:53:07,201: INFO: main: Stage Data Ingestion stage Completed]
-[2025-06-05 15:58:52,125: INFO: config: PyTorch version 2.7.0 available.]
-[2025-06-05 16:05:04,859: INFO: common: yaml file: config/config.yaml loaded successfully]
-[2025-06-05 16:05:04,869: INFO: common: yaml file: params.yaml loaded successfully]
-[2025-06-05 16:05:04,875: INFO: common: created directory at: artifacts]
-[2025-06-05 16:05:04,879: INFO: common: created directory at: artifacts/data_transformation]
-[2025-06-05 16:07:16,890: INFO: common: yaml file: config/config.yaml loaded successfully]
-[2025-06-05 16:07:16,898: INFO: common: yaml file: params.yaml loaded successfully]
-[2025-06-05 16:07:16,903: INFO: common: created directory at: artifacts]
-[2025-06-05 16:07:16,906: INFO: common: created directory at: artifacts/data_transformation]
-[2025-06-05 16:08:41,254: INFO: common: yaml file: config/config.yaml loaded successfully]
-[2025-06-05 16:08:41,261: INFO: common: yaml file: params.yaml loaded successfully]
-[2025-06-05 16:08:41,264: INFO: common: created directory at: artifacts]
-[2025-06-05 16:08:41,266: INFO: common: created directory at: artifacts/data_transformation]
-[2025-06-05 16:09:05,398: INFO: common: yaml file: config/config.yaml loaded successfully]
-[2025-06-05 16:09:05,404: INFO: common: yaml file: params.yaml loaded successfully]
-[2025-06-05 16:09:05,407: INFO: common: created directory at: artifacts]
-[2025-06-05 16:09:05,410: INFO: common: created directory at: artifacts/data_transformation]
-[2025-06-05 16:29:55,665: INFO: config: PyTorch version 2.7.0 available.]
-[2025-06-05 16:30:08,450: INFO: common: yaml file: config/config.yaml loaded successfully]
-[2025-06-05 16:30:08,455: INFO: common: yaml file: params.yaml loaded successfully]
-[2025-06-05 16:30:08,457: INFO: common: created directory at: artifacts]
-[2025-06-05 16:30:08,460: INFO: common: created directory at: artifacts/data_transformation]
-[2025-06-05 16:38:26,604: INFO: config: PyTorch version 2.7.0 available.]
-[2025-06-05 16:38:27,270: INFO: main: stage Data Ingestion stage initiated]
-[2025-06-05 16:38:27,273: INFO: common: yaml file: config/config.yaml loaded successfully]
-[2025-06-05 16:38:27,276: INFO: common: yaml file: params.yaml loaded successfully]
-[2025-06-05 16:38:27,276: INFO: common: created directory at: artifacts]
-[2025-06-05 16:38:27,276: INFO: common: created directory at: artifacts/data_ingestion]
-[2025-06-05 16:38:27,276: INFO: data_ingestion: File already exits]
-[2025-06-05 16:38:27,614: INFO: main: Stage Data Ingestion stage Completed]
-[2025-06-05 16:38:27,615: INFO: main: stage Data Transformation stage initiated]
-[2025-06-05 16:38:27,618: INFO: common: yaml file: config/config.yaml loaded successfully]
-[2025-06-05 16:38:27,619: INFO: common: yaml file: params.yaml loaded successfully]
-[2025-06-05 16:38:27,619: INFO: common: created directory at: artifacts]
-[2025-06-05 16:38:27,620: INFO: common: created directory at: artifacts/data_transformation]
-[2025-06-05 16:38:37,783: INFO: main: Stage Data Transformation stage Completed]
+[2025-06-05 17:24:53,416: INFO: config: PyTorch version 2.7.0 available.]
+[2025-06-05 17:24:54,376: INFO: main: stage Data Ingestion stage initiated]
+[2025-06-05 17:24:54,378: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-05 17:24:54,378: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-05 17:24:54,379: INFO: common: created directory at: artifacts]
+[2025-06-05 17:24:54,379: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-06-05 17:24:56,224: INFO: data_ingestion: File is downloaded]
+[2025-06-05 17:24:56,330: INFO: main: Stage Data Ingestion stage Completed]
+[2025-06-05 17:24:56,330: INFO: main: stage Data Transformation stage initiated]
+[2025-06-05 17:24:56,332: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-05 17:24:56,332: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-05 17:24:56,332: INFO: common: created directory at: artifacts]
+[2025-06-05 17:24:56,332: INFO: common: created directory at: artifacts/data_transformation]
+[2025-06-05 17:24:56,332: ERROR: main: 'NoneType' object has no attribute 'tokenizer_name']
+Traceback (most recent call last):
+  File "/media/bhuvanesh/OS/Users/bhuva/Documents/Learnings/End-to-End MLOps Bootcamp/textsummarizer/TextSummarizer/main.py", line 22, in <module>
+    data_ingestion_pipeline.initiate_data_transformation()
+  File "/media/bhuvanesh/OS/Users/bhuva/Documents/Learnings/End-to-End MLOps Bootcamp/textsummarizer/TextSummarizer/src/TextSummarizer/pipeline/stage_2_data_transformation_pipeline.py", line 13, in initiate_data_transformation
+    data_transformation=DataTransformation(config=data_transformation_config)
+  File "/media/bhuvanesh/OS/Users/bhuva/Documents/Learnings/End-to-End MLOps Bootcamp/textsummarizer/TextSummarizer/src/TextSummarizer/components/data_transformation.py", line 12, in __init__
+    self.tokenizer=AutoTokenizer.from_pretrained(config.tokenizer_name)
+AttributeError: 'NoneType' object has no attribute 'tokenizer_name'
+[2025-06-05 17:26:16,319: INFO: config: PyTorch version 2.7.0 available.]
+[2025-06-05 17:26:17,151: INFO: main: stage Data Ingestion stage initiated]
+[2025-06-05 17:26:17,152: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-05 17:26:17,153: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-05 17:26:17,153: INFO: common: created directory at: artifacts]
+[2025-06-05 17:26:17,153: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-06-05 17:26:17,153: INFO: data_ingestion: File already exits]
+[2025-06-05 17:26:17,249: INFO: main: Stage Data Ingestion stage Completed]
+[2025-06-05 17:26:17,249: INFO: main: stage Data Transformation stage initiated]
+[2025-06-05 17:26:17,250: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-05 17:26:17,251: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-05 17:26:17,251: INFO: common: created directory at: artifacts]
+[2025-06-05 17:26:17,251: INFO: common: created directory at: artifacts/data_transformation]
+[2025-06-05 17:26:20,360: INFO: main: Stage Data Transformation stage Completed]
+[2025-06-05 17:26:20,360: INFO: main: stage Model Trainer stage initiated]
+[2025-06-05 17:26:20,362: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-05 17:26:20,363: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-05 17:26:20,364: INFO: common: created directory at: artifacts]
+[2025-06-05 17:26:20,364: ERROR: main: 'ConfigurationManager' object has no attribute 'params']
+Traceback (most recent call last):
+  File "/media/bhuvanesh/OS/Users/bhuva/Documents/Learnings/End-to-End MLOps Bootcamp/textsummarizer/TextSummarizer/main.py", line 34, in <module>
+    model_trainer_pipeline.initiate_model_trainer()
+  File "/media/bhuvanesh/OS/Users/bhuva/Documents/Learnings/End-to-End MLOps Bootcamp/textsummarizer/TextSummarizer/src/TextSummarizer/pipeline/stage_3_model_trainer_pipeline.py", line 10, in initiate_model_trainer
+    model_trainer_config = config.get_model_trainer_config()
+  File "/media/bhuvanesh/OS/Users/bhuva/Documents/Learnings/End-to-End MLOps Bootcamp/textsummarizer/TextSummarizer/src/TextSummarizer/config/configuration.py", line 43, in get_model_trainer_config
+    params=self.params.TrainingArguments
+AttributeError: 'ConfigurationManager' object has no attribute 'params'
+[2025-06-05 17:27:33,668: INFO: config: PyTorch version 2.7.0 available.]
+[2025-06-05 17:27:34,594: INFO: main: stage Data Ingestion stage initiated]
+[2025-06-05 17:27:34,595: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-05 17:27:34,596: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-05 17:27:34,596: INFO: common: created directory at: artifacts]
+[2025-06-05 17:27:34,596: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-06-05 17:27:35,417: INFO: data_ingestion: File is downloaded]
+[2025-06-05 17:27:35,521: INFO: main: Stage Data Ingestion stage Completed]
+[2025-06-05 17:27:35,521: INFO: main: stage Data Transformation stage initiated]
+[2025-06-05 17:27:35,523: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-05 17:27:35,523: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-05 17:27:35,523: INFO: common: created directory at: artifacts]
+[2025-06-05 17:27:35,524: INFO: common: created directory at: artifacts/data_transformation]
+[2025-06-05 17:27:39,104: INFO: main: Stage Data Transformation stage Completed]
+[2025-06-05 17:27:39,105: INFO: main: stage Model Trainer stage initiated]
+[2025-06-05 17:27:39,107: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-05 17:27:39,108: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-05 17:27:39,108: INFO: common: created directory at: artifacts]
+[2025-06-05 17:27:39,108: INFO: common: created directory at: artifacts/model_trainer]
+[2025-06-05 17:32:45,969: INFO: config: PyTorch version 2.7.0 available.]
+[2025-06-05 17:32:47,260: INFO: main: stage Data Ingestion stage initiated]
+[2025-06-05 17:32:47,262: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-05 17:32:47,263: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-05 17:32:47,263: INFO: common: created directory at: artifacts]
+[2025-06-05 17:32:47,263: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-06-05 17:32:47,263: INFO: data_ingestion: File already exits]
+[2025-06-05 17:32:47,358: INFO: main: Stage Data Ingestion stage Completed]
+[2025-06-05 17:32:47,358: INFO: main: stage Data Transformation stage initiated]
+[2025-06-05 17:32:47,359: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-05 17:32:47,360: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-05 17:32:47,360: INFO: common: created directory at: artifacts]
+[2025-06-05 17:32:47,360: INFO: common: created directory at: artifacts/data_transformation]
+[2025-06-05 17:32:49,215: INFO: main: Stage Data Transformation stage Completed]
+[2025-06-05 17:32:49,216: INFO: main: stage Model Trainer stage initiated]
+[2025-06-05 17:32:49,218: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-05 17:32:49,219: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-05 17:32:49,219: INFO: common: created directory at: artifacts]
+[2025-06-05 17:32:49,219: INFO: common: created directory at: artifacts/model_trainer]
+[2025-06-05 17:32:57,363: ERROR: main: TrainingArguments.__init__() got an unexpected keyword argument 'evaluation_strategy']
+Traceback (most recent call last):
+  File "/media/bhuvanesh/OS/Users/bhuva/Documents/Learnings/End-to-End MLOps Bootcamp/textsummarizer/TextSummarizer/main.py", line 34, in <module>
+    model_trainer_pipeline.initiate_model_trainer()
+  File "/media/bhuvanesh/OS/Users/bhuva/Documents/Learnings/End-to-End MLOps Bootcamp/textsummarizer/TextSummarizer/src/TextSummarizer/pipeline/stage_3_model_trainer_pipeline.py", line 12, in initiate_model_trainer
+    model_trainer_config.train()
+  File "/media/bhuvanesh/OS/Users/bhuva/Documents/Learnings/End-to-End MLOps Bootcamp/textsummarizer/TextSummarizer/src/TextSummarizer/components/model_trainer.py", line 22, in train
+    trainer_args = TrainingArguments(
+TypeError: TrainingArguments.__init__() got an unexpected keyword argument 'evaluation_strategy'
+[2025-06-05 17:37:16,855: INFO: config: PyTorch version 2.7.0 available.]
+[2025-06-05 17:37:18,643: INFO: main: stage Data Ingestion stage initiated]
+[2025-06-05 17:37:18,645: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-05 17:37:18,646: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-05 17:37:18,646: INFO: common: created directory at: artifacts]
+[2025-06-05 17:37:18,646: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-06-05 17:37:18,646: INFO: data_ingestion: File already exits]
+[2025-06-05 17:37:18,750: INFO: main: Stage Data Ingestion stage Completed]
+[2025-06-05 17:37:18,750: INFO: main: stage Data Transformation stage initiated]
+[2025-06-05 17:37:18,751: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-05 17:37:18,752: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-05 17:37:18,752: INFO: common: created directory at: artifacts]
+[2025-06-05 17:37:18,752: INFO: common: created directory at: artifacts/data_transformation]
+[2025-06-05 17:37:20,372: INFO: main: Stage Data Transformation stage Completed]
+[2025-06-05 17:37:20,373: INFO: main: stage Model Trainer stage initiated]
+[2025-06-05 17:37:20,375: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-05 17:37:20,376: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-05 17:37:20,376: INFO: common: created directory at: artifacts]
+[2025-06-05 17:37:20,376: INFO: common: created directory at: artifacts/model_trainer]
+[2025-06-05 17:37:28,576: ERROR: main: TrainingArguments.__init__() got an unexpected keyword argument 'evaluation_strategy']
+Traceback (most recent call last):
+  File "/media/bhuvanesh/OS/Users/bhuva/Documents/Learnings/End-to-End MLOps Bootcamp/textsummarizer/TextSummarizer/main.py", line 34, in <module>
+    model_trainer_pipeline.initiate_model_trainer()
+  File "/media/bhuvanesh/OS/Users/bhuva/Documents/Learnings/End-to-End MLOps Bootcamp/textsummarizer/TextSummarizer/src/TextSummarizer/pipeline/stage_3_model_trainer_pipeline.py", line 12, in initiate_model_trainer
+    model_trainer_config.train()
+  File "/media/bhuvanesh/OS/Users/bhuva/Documents/Learnings/End-to-End MLOps Bootcamp/textsummarizer/TextSummarizer/src/TextSummarizer/components/model_trainer.py", line 22, in train
+    trainer_args = TrainingArguments(
+TypeError: TrainingArguments.__init__() got an unexpected keyword argument 'evaluation_strategy'
+[2025-06-05 17:39:07,707: INFO: config: PyTorch version 2.7.0 available.]
+[2025-06-05 17:39:09,031: INFO: main: stage Data Ingestion stage initiated]
+[2025-06-05 17:39:09,032: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-05 17:39:09,035: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-05 17:39:09,035: INFO: common: created directory at: artifacts]
+[2025-06-05 17:39:09,035: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-06-05 17:39:09,035: INFO: data_ingestion: File already exits]
+[2025-06-05 17:39:09,131: INFO: main: Stage Data Ingestion stage Completed]
+[2025-06-05 17:39:09,131: INFO: main: stage Data Transformation stage initiated]
+[2025-06-05 17:39:09,132: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-05 17:39:09,133: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-05 17:39:09,133: INFO: common: created directory at: artifacts]
+[2025-06-05 17:39:09,133: INFO: common: created directory at: artifacts/data_transformation]
+[2025-06-05 17:39:10,806: INFO: main: Stage Data Transformation stage Completed]
+[2025-06-05 17:39:10,806: INFO: main: stage Model Trainer stage initiated]
+[2025-06-05 17:39:10,808: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-05 17:39:10,809: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-05 17:39:10,809: INFO: common: created directory at: artifacts]
+[2025-06-05 17:39:10,809: INFO: common: created directory at: artifacts/model_trainer]
+[2025-06-05 17:39:19,313: ERROR: main: name 'steps' is not defined]
+Traceback (most recent call last):
+  File "/media/bhuvanesh/OS/Users/bhuva/Documents/Learnings/End-to-End MLOps Bootcamp/textsummarizer/TextSummarizer/main.py", line 34, in <module>
+    model_trainer_pipeline.initiate_model_trainer()
+  File "/media/bhuvanesh/OS/Users/bhuva/Documents/Learnings/End-to-End MLOps Bootcamp/textsummarizer/TextSummarizer/src/TextSummarizer/pipeline/stage_3_model_trainer_pipeline.py", line 12, in initiate_model_trainer
+    model_trainer_config.train()
+  File "/media/bhuvanesh/OS/Users/bhuva/Documents/Learnings/End-to-End MLOps Bootcamp/textsummarizer/TextSummarizer/src/TextSummarizer/components/model_trainer.py", line 26, in train
+    evaluation_strategy=steps, eval_steps=500, save_steps=1e6,
+NameError: name 'steps' is not defined
+[2025-06-05 17:40:49,471: INFO: config: PyTorch version 2.7.0 available.]
+[2025-06-05 17:40:51,219: INFO: main: stage Data Ingestion stage initiated]
+[2025-06-05 17:40:51,222: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-05 17:40:51,222: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-05 17:40:51,222: INFO: common: created directory at: artifacts]
+[2025-06-05 17:40:51,222: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-06-05 17:40:51,223: INFO: data_ingestion: File already exits]
+[2025-06-05 17:40:51,319: INFO: main: Stage Data Ingestion stage Completed]
+[2025-06-05 17:40:51,319: INFO: main: stage Data Transformation stage initiated]
+[2025-06-05 17:40:51,320: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-05 17:40:51,321: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-05 17:40:51,321: INFO: common: created directory at: artifacts]
+[2025-06-05 17:40:51,321: INFO: common: created directory at: artifacts/data_transformation]
+[2025-06-05 17:40:52,996: INFO: main: Stage Data Transformation stage Completed]
+[2025-06-05 17:40:52,996: INFO: main: stage Model Trainer stage initiated]
+[2025-06-05 17:40:52,998: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-05 17:40:52,999: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-05 17:40:52,999: INFO: common: created directory at: artifacts]
+[2025-06-05 17:40:52,999: INFO: common: created directory at: artifacts/model_trainer]
+[2025-06-05 17:41:00,320: ERROR: main: TrainingArguments.__init__() got an unexpected keyword argument 'evaluation_strategy']
+Traceback (most recent call last):
+  File "/media/bhuvanesh/OS/Users/bhuva/Documents/Learnings/End-to-End MLOps Bootcamp/textsummarizer/TextSummarizer/main.py", line 34, in <module>
+    model_trainer_pipeline.initiate_model_trainer()
+  File "/media/bhuvanesh/OS/Users/bhuva/Documents/Learnings/End-to-End MLOps Bootcamp/textsummarizer/TextSummarizer/src/TextSummarizer/pipeline/stage_3_model_trainer_pipeline.py", line 12, in initiate_model_trainer
+    model_trainer_config.train()
+  File "/media/bhuvanesh/OS/Users/bhuva/Documents/Learnings/End-to-End MLOps Bootcamp/textsummarizer/TextSummarizer/src/TextSummarizer/components/model_trainer.py", line 22, in train
+    trainer_args = TrainingArguments(
+TypeError: TrainingArguments.__init__() got an unexpected keyword argument 'evaluation_strategy'
+[2025-06-05 17:42:05,915: INFO: config: PyTorch version 2.7.0 available.]
+[2025-06-05 17:42:07,438: INFO: main: stage Data Ingestion stage initiated]
+[2025-06-05 17:42:07,439: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-05 17:42:07,440: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-05 17:42:07,441: INFO: common: created directory at: artifacts]
+[2025-06-05 17:42:07,441: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-06-05 17:42:07,441: INFO: data_ingestion: File already exits]
+[2025-06-05 17:42:07,539: INFO: main: Stage Data Ingestion stage Completed]
+[2025-06-05 17:42:07,539: INFO: main: stage Data Transformation stage initiated]
+[2025-06-05 17:42:07,541: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-05 17:42:07,541: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-05 17:42:07,542: INFO: common: created directory at: artifacts]
+[2025-06-05 17:42:07,542: INFO: common: created directory at: artifacts/data_transformation]
+[2025-06-05 17:42:08,965: INFO: main: Stage Data Transformation stage Completed]
+[2025-06-05 17:42:08,965: INFO: main: stage Model Trainer stage initiated]
+[2025-06-05 17:42:08,967: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-05 17:42:08,969: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-05 17:42:08,969: INFO: common: created directory at: artifacts]
+[2025-06-05 17:42:08,969: INFO: common: created directory at: artifacts/model_trainer]
+[2025-06-05 17:42:16,296: ERROR: main: TrainingArguments.__init__() got an unexpected keyword argument 'evaluation_strategy']
+Traceback (most recent call last):
+  File "/media/bhuvanesh/OS/Users/bhuva/Documents/Learnings/End-to-End MLOps Bootcamp/textsummarizer/TextSummarizer/main.py", line 34, in <module>
+    model_trainer_pipeline.initiate_model_trainer()
+  File "/media/bhuvanesh/OS/Users/bhuva/Documents/Learnings/End-to-End MLOps Bootcamp/textsummarizer/TextSummarizer/src/TextSummarizer/pipeline/stage_3_model_trainer_pipeline.py", line 12, in initiate_model_trainer
+    model_trainer_config.train()
+  File "/media/bhuvanesh/OS/Users/bhuva/Documents/Learnings/End-to-End MLOps Bootcamp/textsummarizer/TextSummarizer/src/TextSummarizer/components/model_trainer.py", line 22, in train
+    trainer_args = TrainingArguments(
+TypeError: TrainingArguments.__init__() got an unexpected keyword argument 'evaluation_strategy'
+[2025-06-05 17:44:06,349: INFO: config: PyTorch version 2.7.0 available.]
+[2025-06-05 17:44:08,096: INFO: main: stage Data Ingestion stage initiated]
+[2025-06-05 17:44:08,098: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-05 17:44:08,099: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-05 17:44:08,099: INFO: common: created directory at: artifacts]
+[2025-06-05 17:44:08,099: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-06-05 17:44:08,099: INFO: data_ingestion: File already exits]
+[2025-06-05 17:44:08,194: INFO: main: Stage Data Ingestion stage Completed]
+[2025-06-05 17:44:08,194: INFO: main: stage Data Transformation stage initiated]
+[2025-06-05 17:44:08,195: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-05 17:44:08,196: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-05 17:44:08,196: INFO: common: created directory at: artifacts]
+[2025-06-05 17:44:08,196: INFO: common: created directory at: artifacts/data_transformation]
+[2025-06-05 17:44:10,183: INFO: main: Stage Data Transformation stage Completed]
+[2025-06-05 17:44:10,183: INFO: main: stage Model Trainer stage initiated]
+[2025-06-05 17:44:10,185: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-05 17:44:10,186: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-05 17:44:10,186: INFO: common: created directory at: artifacts]
+[2025-06-05 17:44:10,186: INFO: common: created directory at: artifacts/model_trainer]
+[2025-06-05 17:44:17,776: ERROR: main: TrainingArguments.__init__() got an unexpected keyword argument 'evaluation_strategy']
+Traceback (most recent call last):
+  File "/media/bhuvanesh/OS/Users/bhuva/Documents/Learnings/End-to-End MLOps Bootcamp/textsummarizer/TextSummarizer/main.py", line 34, in <module>
+    model_trainer_pipeline.initiate_model_trainer()
+  File "/media/bhuvanesh/OS/Users/bhuva/Documents/Learnings/End-to-End MLOps Bootcamp/textsummarizer/TextSummarizer/src/TextSummarizer/pipeline/stage_3_model_trainer_pipeline.py", line 12, in initiate_model_trainer
+    model_trainer_config.train()
+  File "/media/bhuvanesh/OS/Users/bhuva/Documents/Learnings/End-to-End MLOps Bootcamp/textsummarizer/TextSummarizer/src/TextSummarizer/components/model_trainer.py", line 22, in train
+    trainer_args = TrainingArguments(
+TypeError: TrainingArguments.__init__() got an unexpected keyword argument 'evaluation_strategy'
+[2025-06-05 17:48:33,867: INFO: config: PyTorch version 2.7.0 available.]
+[2025-06-05 17:48:35,089: INFO: main: stage Data Ingestion stage initiated]
+[2025-06-05 17:48:35,090: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-05 17:48:35,091: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-05 17:48:35,091: INFO: common: created directory at: artifacts]
+[2025-06-05 17:48:35,091: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-06-05 17:48:35,091: INFO: data_ingestion: File already exits]
+[2025-06-05 17:48:35,186: INFO: main: Stage Data Ingestion stage Completed]
+[2025-06-05 17:48:35,187: INFO: main: stage Data Transformation stage initiated]
+[2025-06-05 17:48:35,188: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-05 17:48:35,188: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-05 17:48:35,188: INFO: common: created directory at: artifacts]
+[2025-06-05 17:48:35,188: INFO: common: created directory at: artifacts/data_transformation]
+[2025-06-05 17:48:36,780: INFO: main: Stage Data Transformation stage Completed]
+[2025-06-05 17:48:36,780: INFO: main: stage Model Trainer stage initiated]
+[2025-06-05 17:48:36,781: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-05 17:48:36,782: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-05 17:48:36,783: INFO: common: created directory at: artifacts]
+[2025-06-05 17:48:36,783: INFO: common: created directory at: artifacts/model_trainer]
+[2025-06-05 17:48:43,584: ERROR: main: TrainingArguments.__init__() got an unexpected keyword argument 'evaluation_strategy']
+Traceback (most recent call last):
+  File "/media/bhuvanesh/OS/Users/bhuva/Documents/Learnings/End-to-End MLOps Bootcamp/textsummarizer/TextSummarizer/main.py", line 34, in <module>
+    model_trainer_pipeline.initiate_model_trainer()
+  File "/media/bhuvanesh/OS/Users/bhuva/Documents/Learnings/End-to-End MLOps Bootcamp/textsummarizer/TextSummarizer/src/TextSummarizer/pipeline/stage_3_model_trainer_pipeline.py", line 12, in initiate_model_trainer
+    model_trainer_config.train()
+  File "/media/bhuvanesh/OS/Users/bhuva/Documents/Learnings/End-to-End MLOps Bootcamp/textsummarizer/TextSummarizer/src/TextSummarizer/components/model_trainer.py", line 22, in train
+    trainer_args = TrainingArguments(
+TypeError: TrainingArguments.__init__() got an unexpected keyword argument 'evaluation_strategy'
+[2025-06-05 17:49:54,421: INFO: config: PyTorch version 2.7.0 available.]
+[2025-06-05 17:49:56,121: INFO: main: stage Data Ingestion stage initiated]
+[2025-06-05 17:49:56,122: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-05 17:49:56,124: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-05 17:49:56,124: INFO: common: created directory at: artifacts]
+[2025-06-05 17:49:56,124: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-06-05 17:49:56,124: INFO: data_ingestion: File already exits]
+[2025-06-05 17:49:56,223: INFO: main: Stage Data Ingestion stage Completed]
+[2025-06-05 17:49:56,223: INFO: main: stage Data Transformation stage initiated]
+[2025-06-05 17:49:56,224: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-05 17:49:56,225: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-05 17:49:56,225: INFO: common: created directory at: artifacts]
+[2025-06-05 17:49:56,225: INFO: common: created directory at: artifacts/data_transformation]
+[2025-06-05 17:49:57,939: INFO: main: Stage Data Transformation stage Completed]
+[2025-06-05 17:49:57,940: INFO: main: stage Model Trainer stage initiated]
+[2025-06-05 17:49:57,942: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-05 17:49:57,943: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-05 17:49:57,943: INFO: common: created directory at: artifacts]
+[2025-06-05 17:49:57,944: INFO: common: created directory at: artifacts/model_trainer]
+[2025-06-05 17:50:05,159: ERROR: main: TrainingArguments.__init__() got an unexpected keyword argument 'evaluation_strategy']
+Traceback (most recent call last):
+  File "/media/bhuvanesh/OS/Users/bhuva/Documents/Learnings/End-to-End MLOps Bootcamp/textsummarizer/TextSummarizer/main.py", line 34, in <module>
+    model_trainer_pipeline.initiate_model_trainer()
+  File "/media/bhuvanesh/OS/Users/bhuva/Documents/Learnings/End-to-End MLOps Bootcamp/textsummarizer/TextSummarizer/src/TextSummarizer/pipeline/stage_3_model_trainer_pipeline.py", line 12, in initiate_model_trainer
+    model_trainer_config.train()
+  File "/media/bhuvanesh/OS/Users/bhuva/Documents/Learnings/End-to-End MLOps Bootcamp/textsummarizer/TextSummarizer/src/TextSummarizer/components/model_trainer.py", line 22, in train
+    trainer_args = TrainingArguments(
+TypeError: TrainingArguments.__init__() got an unexpected keyword argument 'evaluation_strategy'
+[2025-06-05 17:52:17,317: INFO: config: PyTorch version 2.7.0 available.]
+[2025-06-05 17:52:18,639: INFO: main: stage Data Ingestion stage initiated]
+[2025-06-05 17:52:18,641: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-05 17:52:18,642: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-05 17:52:18,642: INFO: common: created directory at: artifacts]
+[2025-06-05 17:52:18,642: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-06-05 17:52:18,642: INFO: data_ingestion: File already exits]
+[2025-06-05 17:52:18,739: INFO: main: Stage Data Ingestion stage Completed]
+[2025-06-05 17:52:18,739: INFO: main: stage Data Transformation stage initiated]
+[2025-06-05 17:52:18,740: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-05 17:52:18,741: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-05 17:52:18,741: INFO: common: created directory at: artifacts]
+[2025-06-05 17:52:18,741: INFO: common: created directory at: artifacts/data_transformation]
+[2025-06-05 17:52:21,387: INFO: main: Stage Data Transformation stage Completed]
+[2025-06-05 17:52:21,387: INFO: main: stage Model Trainer stage initiated]
+[2025-06-05 17:52:21,388: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-05 17:52:21,389: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-05 17:52:21,389: INFO: common: created directory at: artifacts]
+[2025-06-05 17:52:21,389: INFO: common: created directory at: artifacts/model_trainer]
+[2025-06-05 17:53:09,085: INFO: config: PyTorch version 2.7.0 available.]
+[2025-06-05 17:53:10,723: INFO: main: stage Data Ingestion stage initiated]
+[2025-06-05 17:53:10,724: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-05 17:53:10,726: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-05 17:53:10,726: INFO: common: created directory at: artifacts]
+[2025-06-05 17:53:10,726: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-06-05 17:53:10,726: INFO: data_ingestion: File already exits]
+[2025-06-05 17:53:10,822: INFO: main: Stage Data Ingestion stage Completed]
+[2025-06-05 17:53:10,822: INFO: main: stage Data Transformation stage initiated]
+[2025-06-05 17:53:10,823: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-05 17:53:10,824: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-05 17:53:10,824: INFO: common: created directory at: artifacts]
+[2025-06-05 17:53:10,824: INFO: common: created directory at: artifacts/data_transformation]
+[2025-06-05 17:53:11,831: INFO: main: Stage Data Transformation stage Completed]
+[2025-06-05 17:53:11,831: INFO: main: stage Model Trainer stage initiated]
+[2025-06-05 17:53:11,833: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-05 17:53:11,834: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-05 17:53:11,834: INFO: common: created directory at: artifacts]
+[2025-06-05 17:53:11,834: INFO: common: created directory at: artifacts/model_trainer]
+[2025-06-05 17:54:48,536: INFO: config: PyTorch version 2.7.0 available.]
+[2025-06-05 17:54:50,621: INFO: main: stage Data Ingestion stage initiated]
+[2025-06-05 17:54:50,624: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-05 17:54:50,626: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-05 17:54:50,626: INFO: common: created directory at: artifacts]
+[2025-06-05 17:54:50,626: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-06-05 17:54:50,627: INFO: data_ingestion: File already exits]
+[2025-06-05 17:54:50,777: INFO: main: Stage Data Ingestion stage Completed]
+[2025-06-05 17:54:50,777: INFO: main: stage Data Transformation stage initiated]
+[2025-06-05 17:54:50,779: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-05 17:54:50,780: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-05 17:54:50,780: INFO: common: created directory at: artifacts]
+[2025-06-05 17:54:50,780: INFO: common: created directory at: artifacts/data_transformation]
+[2025-06-05 17:54:52,386: INFO: main: Stage Data Transformation stage Completed]
+[2025-06-05 17:54:52,386: INFO: main: stage Model Trainer stage initiated]
+[2025-06-05 17:54:52,388: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-05 17:54:52,389: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-05 17:54:52,389: INFO: common: created directory at: artifacts]
+[2025-06-05 17:54:52,389: INFO: common: created directory at: artifacts/model_trainer]
+[2025-06-05 17:55:01,741: ERROR: main: TrainingArguments.__init__() got an unexpected keyword argument 'evaluation_strategy']
+Traceback (most recent call last):
+  File "/media/bhuvanesh/OS/Users/bhuva/Documents/Learnings/End-to-End MLOps Bootcamp/textsummarizer/TextSummarizer/main.py", line 34, in <module>
+    model_trainer_pipeline.initiate_model_trainer()
+  File "/media/bhuvanesh/OS/Users/bhuva/Documents/Learnings/End-to-End MLOps Bootcamp/textsummarizer/TextSummarizer/src/TextSummarizer/pipeline/stage_3_model_trainer_pipeline.py", line 12, in initiate_model_trainer
+    model_trainer_config.train()
+  File "/media/bhuvanesh/OS/Users/bhuva/Documents/Learnings/End-to-End MLOps Bootcamp/textsummarizer/TextSummarizer/src/TextSummarizer/components/model_trainer.py", line 22, in train
+    trainer_args = TrainingArguments(
+TypeError: TrainingArguments.__init__() got an unexpected keyword argument 'evaluation_strategy'
+[2025-06-05 17:55:37,287: INFO: config: PyTorch version 2.7.0 available.]
+[2025-06-05 17:55:39,025: INFO: main: stage Data Ingestion stage initiated]
+[2025-06-05 17:55:39,026: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-05 17:55:39,028: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-05 17:55:39,028: INFO: common: created directory at: artifacts]
+[2025-06-05 17:55:39,028: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-06-05 17:55:39,028: INFO: data_ingestion: File already exits]
+[2025-06-05 17:55:39,125: INFO: main: Stage Data Ingestion stage Completed]
+[2025-06-05 17:55:39,125: INFO: main: stage Data Transformation stage initiated]
+[2025-06-05 17:55:39,126: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-05 17:55:39,127: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-05 17:55:39,127: INFO: common: created directory at: artifacts]
+[2025-06-05 17:55:39,127: INFO: common: created directory at: artifacts/data_transformation]
+[2025-06-05 17:55:40,565: INFO: main: Stage Data Transformation stage Completed]
+[2025-06-05 17:55:40,565: INFO: main: stage Model Trainer stage initiated]
+[2025-06-05 17:55:40,567: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-05 17:55:40,568: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-05 17:55:40,568: INFO: common: created directory at: artifacts]
+[2025-06-05 17:55:40,568: INFO: common: created directory at: artifacts/model_trainer]
+[2025-06-05 17:55:47,900: ERROR: main: TrainingArguments.__init__() got an unexpected keyword argument 'evaluation_strategy']
+Traceback (most recent call last):
+  File "/media/bhuvanesh/OS/Users/bhuva/Documents/Learnings/End-to-End MLOps Bootcamp/textsummarizer/TextSummarizer/main.py", line 34, in <module>
+    model_trainer_pipeline.initiate_model_trainer()
+  File "/media/bhuvanesh/OS/Users/bhuva/Documents/Learnings/End-to-End MLOps Bootcamp/textsummarizer/TextSummarizer/src/TextSummarizer/pipeline/stage_3_model_trainer_pipeline.py", line 12, in initiate_model_trainer
+    model_trainer_config.train()
+  File "/media/bhuvanesh/OS/Users/bhuva/Documents/Learnings/End-to-End MLOps Bootcamp/textsummarizer/TextSummarizer/src/TextSummarizer/components/model_trainer.py", line 22, in train
+    trainer_args = TrainingArguments(
+TypeError: TrainingArguments.__init__() got an unexpected keyword argument 'evaluation_strategy'
+[2025-06-05 18:01:22,489: INFO: config: PyTorch version 2.7.0 available.]
+[2025-06-05 18:01:23,767: INFO: main: stage Data Ingestion stage initiated]
+[2025-06-05 18:01:23,768: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-05 18:01:23,769: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-05 18:01:23,769: INFO: common: created directory at: artifacts]
+[2025-06-05 18:01:23,769: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-06-05 18:01:23,769: INFO: data_ingestion: File already exits]
+[2025-06-05 18:01:23,880: INFO: main: Stage Data Ingestion stage Completed]
+[2025-06-05 18:01:23,880: INFO: main: stage Data Transformation stage initiated]
+[2025-06-05 18:01:23,881: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-05 18:01:23,882: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-05 18:01:23,882: INFO: common: created directory at: artifacts]
+[2025-06-05 18:01:23,882: INFO: common: created directory at: artifacts/data_transformation]
+[2025-06-05 18:01:25,538: INFO: main: Stage Data Transformation stage Completed]
+[2025-06-05 18:01:25,538: INFO: main: stage Model Trainer stage initiated]
+[2025-06-05 18:01:25,539: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-05 18:01:25,540: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-05 18:01:25,540: INFO: common: created directory at: artifacts]
+[2025-06-05 18:01:25,541: INFO: common: created directory at: artifacts/model_trainer]
+[2025-06-05 18:01:25,541: ERROR: main: ModelTrainerConfig.__init__() got an unexpected keyword argument 'eval_strategy']
+Traceback (most recent call last):
+  File "/media/bhuvanesh/OS/Users/bhuva/Documents/Learnings/End-to-End MLOps Bootcamp/textsummarizer/TextSummarizer/main.py", line 34, in <module>
+    model_trainer_pipeline.initiate_model_trainer()
+  File "/media/bhuvanesh/OS/Users/bhuva/Documents/Learnings/End-to-End MLOps Bootcamp/textsummarizer/TextSummarizer/src/TextSummarizer/pipeline/stage_3_model_trainer_pipeline.py", line 10, in initiate_model_trainer
+    model_trainer_config = config.get_model_trainer_config()
+  File "/media/bhuvanesh/OS/Users/bhuva/Documents/Learnings/End-to-End MLOps Bootcamp/textsummarizer/TextSummarizer/src/TextSummarizer/config/configuration.py", line 47, in get_model_trainer_config
+    model_trainer_config=ModelTrainerConfig(
+TypeError: ModelTrainerConfig.__init__() got an unexpected keyword argument 'eval_strategy'
+[2025-06-05 18:03:07,452: INFO: config: PyTorch version 2.7.0 available.]
+[2025-06-05 18:03:08,286: INFO: main: stage Data Ingestion stage initiated]
+[2025-06-05 18:03:08,287: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-05 18:03:08,288: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-05 18:03:08,288: INFO: common: created directory at: artifacts]
+[2025-06-05 18:03:08,288: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-06-05 18:03:08,288: INFO: data_ingestion: File already exits]
+[2025-06-05 18:03:08,384: INFO: main: Stage Data Ingestion stage Completed]
+[2025-06-05 18:03:08,384: INFO: main: stage Data Transformation stage initiated]
+[2025-06-05 18:03:08,385: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-05 18:03:08,386: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-05 18:03:08,386: INFO: common: created directory at: artifacts]
+[2025-06-05 18:03:08,386: INFO: common: created directory at: artifacts/data_transformation]
+[2025-06-05 18:03:10,491: INFO: main: Stage Data Transformation stage Completed]
+[2025-06-05 18:03:10,492: INFO: main: stage Model Trainer stage initiated]
+[2025-06-05 18:03:10,493: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-05 18:03:10,494: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-05 18:03:10,494: INFO: common: created directory at: artifacts]
+[2025-06-05 18:03:10,494: INFO: common: created directory at: artifacts/model_trainer]
+[2025-06-05 18:04:25,830: INFO: config: PyTorch version 2.7.0 available.]
+[2025-06-05 18:04:28,086: INFO: main: stage Data Ingestion stage initiated]
+[2025-06-05 18:04:28,089: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-05 18:04:28,092: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-05 18:04:28,092: INFO: common: created directory at: artifacts]
+[2025-06-05 18:04:28,092: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-06-05 18:04:28,092: INFO: data_ingestion: File already exits]
+[2025-06-05 18:04:28,255: INFO: main: Stage Data Ingestion stage Completed]
+[2025-06-05 18:04:28,255: INFO: main: stage Data Transformation stage initiated]
+[2025-06-05 18:04:28,258: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-05 18:04:28,260: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-05 18:04:28,260: INFO: common: created directory at: artifacts]
+[2025-06-05 18:04:28,261: INFO: common: created directory at: artifacts/data_transformation]
+[2025-06-05 18:04:29,969: INFO: main: Stage Data Transformation stage Completed]
+[2025-06-05 18:04:29,970: INFO: main: stage Model Trainer stage initiated]
+[2025-06-05 18:04:29,973: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-05 18:04:29,976: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-05 18:04:29,976: INFO: common: created directory at: artifacts]
+[2025-06-05 18:04:29,976: INFO: common: created directory at: artifacts/model_trainer]
+[2025-06-05 18:07:06,595: INFO: config: PyTorch version 2.7.0 available.]
+[2025-06-05 18:07:07,994: INFO: main: stage Data Ingestion stage initiated]
+[2025-06-05 18:07:07,995: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-05 18:07:07,996: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-05 18:07:07,996: INFO: common: created directory at: artifacts]
+[2025-06-05 18:07:07,996: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-06-05 18:07:07,997: INFO: data_ingestion: File already exits]
+[2025-06-05 18:07:08,094: INFO: main: Stage Data Ingestion stage Completed]
+[2025-06-05 18:07:08,094: INFO: main: stage Data Transformation stage initiated]
+[2025-06-05 18:07:08,095: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-05 18:07:08,096: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-05 18:07:08,096: INFO: common: created directory at: artifacts]
+[2025-06-05 18:07:08,096: INFO: common: created directory at: artifacts/data_transformation]
+[2025-06-05 18:07:09,731: INFO: main: Stage Data Transformation stage Completed]
+[2025-06-05 18:07:09,732: INFO: main: stage Model Trainer stage initiated]
+[2025-06-05 18:07:09,733: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-05 18:07:09,734: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-05 18:07:09,734: INFO: common: created directory at: artifacts]
+[2025-06-05 18:07:09,735: INFO: common: created directory at: artifacts/model_trainer]
+[2025-06-05 18:09:10,539: INFO: config: PyTorch version 2.7.0 available.]
+[2025-06-05 18:09:13,411: INFO: main: stage Data Ingestion stage initiated]
+[2025-06-05 18:09:13,414: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-05 18:09:13,417: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-05 18:09:13,417: INFO: common: created directory at: artifacts]
+[2025-06-05 18:09:13,417: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-06-05 18:09:13,417: INFO: data_ingestion: File already exits]
+[2025-06-05 18:09:13,584: INFO: main: Stage Data Ingestion stage Completed]
+[2025-06-05 18:09:13,584: INFO: main: stage Data Transformation stage initiated]
+[2025-06-05 18:09:13,586: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-05 18:09:13,587: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-05 18:09:13,588: INFO: common: created directory at: artifacts]
+[2025-06-05 18:09:13,588: INFO: common: created directory at: artifacts/data_transformation]
+[2025-06-05 18:09:15,837: INFO: main: Stage Data Transformation stage Completed]
+[2025-06-05 18:09:15,837: INFO: main: stage Model Trainer stage initiated]
+[2025-06-05 18:09:15,840: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-05 18:09:15,842: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-05 18:09:15,842: INFO: common: created directory at: artifacts]
+[2025-06-05 18:09:15,843: INFO: common: created directory at: artifacts/model_trainer]
+[2025-06-05 18:11:16,700: INFO: config: PyTorch version 2.7.0 available.]
+[2025-06-05 18:11:19,877: INFO: main: stage Data Ingestion stage initiated]
+[2025-06-05 18:11:19,883: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-05 18:11:19,885: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-05 18:11:19,885: INFO: common: created directory at: artifacts]
+[2025-06-05 18:11:19,886: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-06-05 18:11:19,886: INFO: data_ingestion: File already exits]
+[2025-06-05 18:11:20,088: INFO: main: Stage Data Ingestion stage Completed]
+[2025-06-05 18:11:20,088: INFO: main: stage Data Transformation stage initiated]
+[2025-06-05 18:11:20,090: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-05 18:11:20,091: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-05 18:11:20,092: INFO: common: created directory at: artifacts]
+[2025-06-05 18:11:20,092: INFO: common: created directory at: artifacts/data_transformation]
+[2025-06-05 18:11:22,814: INFO: main: Stage Data Transformation stage Completed]
+[2025-06-05 18:11:22,814: INFO: main: stage Model Trainer stage initiated]
+[2025-06-05 18:11:22,819: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-05 18:11:22,822: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-05 18:11:22,823: INFO: common: created directory at: artifacts]
+[2025-06-05 18:11:22,823: INFO: common: created directory at: artifacts/model_trainer]
+[2025-06-05 18:15:40,444: INFO: config: PyTorch version 2.7.0 available.]
+[2025-06-05 18:15:41,722: INFO: main: stage Data Ingestion stage initiated]
+[2025-06-05 18:15:41,724: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-05 18:15:41,725: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-05 18:15:41,725: INFO: common: created directory at: artifacts]
+[2025-06-05 18:15:41,725: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-06-05 18:15:41,725: INFO: data_ingestion: File already exits]
+[2025-06-05 18:15:41,835: INFO: main: Stage Data Ingestion stage Completed]
+[2025-06-05 18:15:41,835: INFO: main: stage Data Transformation stage initiated]
+[2025-06-05 18:15:41,836: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-05 18:15:41,837: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-05 18:15:41,837: INFO: common: created directory at: artifacts]
+[2025-06-05 18:15:41,837: INFO: common: created directory at: artifacts/data_transformation]
+[2025-06-05 18:15:43,098: INFO: main: Stage Data Transformation stage Completed]
+[2025-06-05 18:15:43,098: INFO: main: stage Model Trainer stage initiated]
+[2025-06-05 18:15:43,100: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-05 18:15:43,101: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-05 18:15:43,101: INFO: common: created directory at: artifacts]
+[2025-06-05 18:15:43,101: INFO: common: created directory at: artifacts/model_trainer]
+[2025-06-05 18:25:45,501: INFO: config: PyTorch version 2.7.0 available.]
+[2025-06-05 18:25:47,944: INFO: main: stage Data Ingestion stage initiated]
+[2025-06-05 18:25:47,948: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-05 18:25:47,950: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-05 18:25:47,950: INFO: common: created directory at: artifacts]
+[2025-06-05 18:25:47,950: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-06-05 18:25:47,950: INFO: data_ingestion: File already exits]
+[2025-06-05 18:25:48,150: INFO: main: Stage Data Ingestion stage Completed]
+[2025-06-05 18:25:48,150: INFO: main: stage Data Transformation stage initiated]
+[2025-06-05 18:25:48,152: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-05 18:25:48,154: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-05 18:25:48,154: INFO: common: created directory at: artifacts]
+[2025-06-05 18:25:48,154: INFO: common: created directory at: artifacts/data_transformation]
+[2025-06-05 18:25:50,441: INFO: main: Stage Data Transformation stage Completed]
+[2025-06-05 18:25:50,441: INFO: main: stage Model Trainer stage initiated]
+[2025-06-05 18:25:50,445: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-05 18:25:50,447: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-05 18:25:50,447: INFO: common: created directory at: artifacts]
+[2025-06-05 18:25:50,447: INFO: common: created directory at: artifacts/model_trainer]
+[2025-06-05 18:26:01,188: ERROR: main: TrainingArguments.__init__() got an unexpected keyword argument 'evaluation_strategy']
+Traceback (most recent call last):
+  File "/media/bhuvanesh/OS/Users/bhuva/Documents/Learnings/End-to-End MLOps Bootcamp/textsummarizer/TextSummarizer/main.py", line 34, in <module>
+    model_trainer_pipeline.initiate_model_trainer()
+  File "/media/bhuvanesh/OS/Users/bhuva/Documents/Learnings/End-to-End MLOps Bootcamp/textsummarizer/TextSummarizer/src/TextSummarizer/pipeline/stage_3_model_trainer_pipeline.py", line 12, in initiate_model_trainer
+    model_trainer_config.train()
+  File "/media/bhuvanesh/OS/Users/bhuva/Documents/Learnings/End-to-End MLOps Bootcamp/textsummarizer/TextSummarizer/src/TextSummarizer/components/model_trainer.py", line 22, in train
+    trainer_args = TrainingArguments(
+TypeError: TrainingArguments.__init__() got an unexpected keyword argument 'evaluation_strategy'
+[2025-06-05 18:27:44,427: INFO: config: PyTorch version 2.7.0 available.]
+[2025-06-05 18:27:47,549: INFO: main: stage Data Ingestion stage initiated]
+[2025-06-05 18:27:47,552: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-05 18:27:47,554: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-05 18:27:47,554: INFO: common: created directory at: artifacts]
+[2025-06-05 18:27:47,554: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-06-05 18:27:47,554: INFO: data_ingestion: File already exits]
+[2025-06-05 18:27:47,724: INFO: main: Stage Data Ingestion stage Completed]
+[2025-06-05 18:27:47,724: INFO: main: stage Data Transformation stage initiated]
+[2025-06-05 18:27:47,726: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-05 18:27:47,727: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-05 18:27:47,727: INFO: common: created directory at: artifacts]
+[2025-06-05 18:27:47,727: INFO: common: created directory at: artifacts/data_transformation]
+[2025-06-05 18:27:50,184: INFO: main: Stage Data Transformation stage Completed]
+[2025-06-05 18:27:50,185: INFO: main: stage Model Trainer stage initiated]
+[2025-06-05 18:27:50,188: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-05 18:27:50,189: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-05 18:27:50,190: INFO: common: created directory at: artifacts]
+[2025-06-05 18:27:50,190: INFO: common: created directory at: artifacts/model_trainer]
+[2025-06-05 18:28:02,468: ERROR: main: TrainingArguments.__init__() got an unexpected keyword argument 'evaluation_strategy']
+Traceback (most recent call last):
+  File "/media/bhuvanesh/OS/Users/bhuva/Documents/Learnings/End-to-End MLOps Bootcamp/textsummarizer/TextSummarizer/main.py", line 34, in <module>
+    model_trainer_pipeline.initiate_model_trainer()
+  File "/media/bhuvanesh/OS/Users/bhuva/Documents/Learnings/End-to-End MLOps Bootcamp/textsummarizer/TextSummarizer/src/TextSummarizer/pipeline/stage_3_model_trainer_pipeline.py", line 12, in initiate_model_trainer
+    model_trainer_config.train()
+  File "/media/bhuvanesh/OS/Users/bhuva/Documents/Learnings/End-to-End MLOps Bootcamp/textsummarizer/TextSummarizer/src/TextSummarizer/components/model_trainer.py", line 22, in train
+    trainer_args = TrainingArguments(
+TypeError: TrainingArguments.__init__() got an unexpected keyword argument 'evaluation_strategy'
+[2025-06-05 18:33:04,700: INFO: config: PyTorch version 2.7.0 available.]
+[2025-06-05 18:33:07,351: INFO: main: stage Data Ingestion stage initiated]
+[2025-06-05 18:33:07,355: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-05 18:33:07,356: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-05 18:33:07,356: INFO: common: created directory at: artifacts]
+[2025-06-05 18:33:07,356: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-06-05 18:33:07,357: INFO: data_ingestion: File already exits]
+[2025-06-05 18:33:07,525: INFO: main: Stage Data Ingestion stage Completed]
+[2025-06-05 18:33:07,525: INFO: main: stage Data Transformation stage initiated]
+[2025-06-05 18:33:07,527: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-05 18:33:07,528: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-05 18:33:07,529: INFO: common: created directory at: artifacts]
+[2025-06-05 18:33:07,529: INFO: common: created directory at: artifacts/data_transformation]
+[2025-06-05 18:33:09,417: INFO: main: Stage Data Transformation stage Completed]
+[2025-06-05 18:33:09,418: INFO: main: stage Model Trainer stage initiated]
+[2025-06-05 18:33:09,422: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-05 18:33:09,424: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-05 18:33:09,425: INFO: common: created directory at: artifacts]
+[2025-06-05 18:33:09,425: INFO: common: created directory at: artifacts/model_trainer]
+[2025-06-05 18:33:21,387: ERROR: main: TrainingArguments.__init__() got an unexpected keyword argument 'evaluation_strategy']
+Traceback (most recent call last):
+  File "/media/bhuvanesh/OS/Users/bhuva/Documents/Learnings/End-to-End MLOps Bootcamp/textsummarizer/TextSummarizer/main.py", line 34, in <module>
+    model_trainer_pipeline.initiate_model_trainer()
+  File "/media/bhuvanesh/OS/Users/bhuva/Documents/Learnings/End-to-End MLOps Bootcamp/textsummarizer/TextSummarizer/src/TextSummarizer/pipeline/stage_3_model_trainer_pipeline.py", line 12, in initiate_model_trainer
+    model_trainer_config.train()
+  File "/media/bhuvanesh/OS/Users/bhuva/Documents/Learnings/End-to-End MLOps Bootcamp/textsummarizer/TextSummarizer/src/TextSummarizer/components/model_trainer.py", line 22, in train
+    trainer_args = TrainingArguments(
+TypeError: TrainingArguments.__init__() got an unexpected keyword argument 'evaluation_strategy'
+[2025-06-05 18:44:21,350: INFO: config: PyTorch version 2.7.0 available.]
+[2025-06-05 18:46:57,317: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-05 18:46:57,327: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-05 18:46:57,331: INFO: common: created directory at: artifacts]
+[2025-06-05 18:46:57,334: INFO: common: created directory at: artifacts/model_evaluation]
+[2025-06-05 18:48:44,415: INFO: config: PyTorch version 2.7.0 available.]
+[2025-06-05 18:49:23,013: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-05 18:49:23,037: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-05 18:49:23,042: INFO: common: created directory at: artifacts]
+[2025-06-05 18:49:23,045: INFO: common: created directory at: artifacts/model_trainer]
+[2025-06-05 19:10:51,304: INFO: server: Started server process [150785]]
+[2025-06-05 19:10:51,306: INFO: on: Waiting for application startup.]
+[2025-06-05 19:10:51,306: INFO: on: Application startup complete.]
+[2025-06-05 19:10:51,307: INFO: server: Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)]
+[2025-06-05 19:12:03,472: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-05 19:12:03,475: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-05 19:12:03,475: INFO: common: created directory at: artifacts]
+[2025-06-05 19:12:03,475: INFO: common: created directory at: artifacts/model_evaluation]
+[2025-06-05 19:12:03,476: ERROR: h11_impl: Exception in ASGI application
+]
+Traceback (most recent call last):
+  File "/media/bhuvanesh/OS/Users/bhuva/Documents/Learnings/End-to-End MLOps Bootcamp/textsummarizer/TextSummarizer/venv/lib/python3.10/site-packages/transformers/utils/hub.py", line 470, in cached_files
+    hf_hub_download(
+  File "/media/bhuvanesh/OS/Users/bhuva/Documents/Learnings/End-to-End MLOps Bootcamp/textsummarizer/TextSummarizer/venv/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 106, in _inner_fn
+    validate_repo_id(arg_value)
+  File "/media/bhuvanesh/OS/Users/bhuva/Documents/Learnings/End-to-End MLOps Bootcamp/textsummarizer/TextSummarizer/venv/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 154, in validate_repo_id
+    raise HFValidationError(
+huggingface_hub.errors.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': 'artifacts/model_trainer/tokenizer'. Use `repo_type` argument if needed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/bhuvanesh/OS/Users/bhuva/Documents/Learnings/End-to-End MLOps Bootcamp/textsummarizer/TextSummarizer/venv/lib/python3.10/site-packages/uvicorn/protocols/http/h11_impl.py", line 404, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/media/bhuvanesh/OS/Users/bhuva/Documents/Learnings/End-to-End MLOps Bootcamp/textsummarizer/TextSummarizer/venv/lib/python3.10/site-packages/uvicorn/middleware/proxy_headers.py", line 78, in __call__
+    return await self.app(scope, receive, send)
+  File "/media/bhuvanesh/OS/Users/bhuva/Documents/Learnings/End-to-End MLOps Bootcamp/textsummarizer/TextSummarizer/venv/lib/python3.10/site-packages/fastapi/applications.py", line 269, in __call__
+    await super().__call__(scope, receive, send)
+  File "/media/bhuvanesh/OS/Users/bhuva/Documents/Learnings/End-to-End MLOps Bootcamp/textsummarizer/TextSummarizer/venv/lib/python3.10/site-packages/starlette/applications.py", line 124, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/media/bhuvanesh/OS/Users/bhuva/Documents/Learnings/End-to-End MLOps Bootcamp/textsummarizer/TextSummarizer/venv/lib/python3.10/site-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/media/bhuvanesh/OS/Users/bhuva/Documents/Learnings/End-to-End MLOps Bootcamp/textsummarizer/TextSummarizer/venv/lib/python3.10/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/media/bhuvanesh/OS/Users/bhuva/Documents/Learnings/End-to-End MLOps Bootcamp/textsummarizer/TextSummarizer/venv/lib/python3.10/site-packages/starlette/exceptions.py", line 93, in __call__
+    raise exc
+  File "/media/bhuvanesh/OS/Users/bhuva/Documents/Learnings/End-to-End MLOps Bootcamp/textsummarizer/TextSummarizer/venv/lib/python3.10/site-packages/starlette/exceptions.py", line 82, in __call__
+    await self.app(scope, receive, sender)
+  File "/media/bhuvanesh/OS/Users/bhuva/Documents/Learnings/End-to-End MLOps Bootcamp/textsummarizer/TextSummarizer/venv/lib/python3.10/site-packages/fastapi/middleware/asyncexitstack.py", line 21, in __call__
+    raise e
+  File "/media/bhuvanesh/OS/Users/bhuva/Documents/Learnings/End-to-End MLOps Bootcamp/textsummarizer/TextSummarizer/venv/lib/python3.10/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/media/bhuvanesh/OS/Users/bhuva/Documents/Learnings/End-to-End MLOps Bootcamp/textsummarizer/TextSummarizer/venv/lib/python3.10/site-packages/starlette/routing.py", line 670, in __call__
+    await route.handle(scope, receive, send)
+  File "/media/bhuvanesh/OS/Users/bhuva/Documents/Learnings/End-to-End MLOps Bootcamp/textsummarizer/TextSummarizer/venv/lib/python3.10/site-packages/starlette/routing.py", line 266, in handle
+    await self.app(scope, receive, send)
+  File "/media/bhuvanesh/OS/Users/bhuva/Documents/Learnings/End-to-End MLOps Bootcamp/textsummarizer/TextSummarizer/venv/lib/python3.10/site-packages/starlette/routing.py", line 65, in app
+    response = await func(request)
+  File "/media/bhuvanesh/OS/Users/bhuva/Documents/Learnings/End-to-End MLOps Bootcamp/textsummarizer/TextSummarizer/venv/lib/python3.10/site-packages/fastapi/routing.py", line 227, in app
+    raw_response = await run_endpoint_function(
+  File "/media/bhuvanesh/OS/Users/bhuva/Documents/Learnings/End-to-End MLOps Bootcamp/textsummarizer/TextSummarizer/venv/lib/python3.10/site-packages/fastapi/routing.py", line 160, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/media/bhuvanesh/OS/Users/bhuva/Documents/Learnings/End-to-End MLOps Bootcamp/textsummarizer/TextSummarizer/app.py", line 41, in predict_route
+    raise e
+  File "/media/bhuvanesh/OS/Users/bhuva/Documents/Learnings/End-to-End MLOps Bootcamp/textsummarizer/TextSummarizer/app.py", line 38, in predict_route
+    text = obj.predict(text)
+  File "/media/bhuvanesh/OS/Users/bhuva/Documents/Learnings/End-to-End MLOps Bootcamp/textsummarizer/TextSummarizer/src/TextSummarizer/pipeline/predicition_pipeline.py", line 13, in predict
+    tokenizer = AutoTokenizer.from_pretrained(self.config.tokenizer_path)
+  File "/media/bhuvanesh/OS/Users/bhuva/Documents/Learnings/End-to-End MLOps Bootcamp/textsummarizer/TextSummarizer/venv/lib/python3.10/site-packages/transformers/models/auto/tokenization_auto.py", line 950, in from_pretrained
+    tokenizer_config = get_tokenizer_config(pretrained_model_name_or_path, **kwargs)
+  File "/media/bhuvanesh/OS/Users/bhuva/Documents/Learnings/End-to-End MLOps Bootcamp/textsummarizer/TextSummarizer/venv/lib/python3.10/site-packages/transformers/models/auto/tokenization_auto.py", line 782, in get_tokenizer_config
+    resolved_config_file = cached_file(
+  File "/media/bhuvanesh/OS/Users/bhuva/Documents/Learnings/End-to-End MLOps Bootcamp/textsummarizer/TextSummarizer/venv/lib/python3.10/site-packages/transformers/utils/hub.py", line 312, in cached_file
+    file = cached_files(path_or_repo_id=path_or_repo_id, filenames=[filename], **kwargs)
+  File "/media/bhuvanesh/OS/Users/bhuva/Documents/Learnings/End-to-End MLOps Bootcamp/textsummarizer/TextSummarizer/venv/lib/python3.10/site-packages/transformers/utils/hub.py", line 522, in cached_files
+    resolved_files = [
+  File "/media/bhuvanesh/OS/Users/bhuva/Documents/Learnings/End-to-End MLOps Bootcamp/textsummarizer/TextSummarizer/venv/lib/python3.10/site-packages/transformers/utils/hub.py", line 523, in <listcomp>
+    _get_cache_file_to_return(path_or_repo_id, filename, cache_dir, revision) for filename in full_filenames
+  File "/media/bhuvanesh/OS/Users/bhuva/Documents/Learnings/End-to-End MLOps Bootcamp/textsummarizer/TextSummarizer/venv/lib/python3.10/site-packages/transformers/utils/hub.py", line 140, in _get_cache_file_to_return
+    resolved_file = try_to_load_from_cache(path_or_repo_id, full_filename, cache_dir=cache_dir, revision=revision)
+  File "/media/bhuvanesh/OS/Users/bhuva/Documents/Learnings/End-to-End MLOps Bootcamp/textsummarizer/TextSummarizer/venv/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 106, in _inner_fn
+    validate_repo_id(arg_value)
+  File "/media/bhuvanesh/OS/Users/bhuva/Documents/Learnings/End-to-End MLOps Bootcamp/textsummarizer/TextSummarizer/venv/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 154, in validate_repo_id
+    raise HFValidationError(
+huggingface_hub.errors.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': 'artifacts/model_trainer/tokenizer'. Use `repo_type` argument if needed.
+[2025-06-05 19:16:31,369: INFO: server: Shutting down]
+[2025-06-05 19:16:31,470: INFO: on: Waiting for application shutdown.]
+[2025-06-05 19:16:31,470: INFO: on: Application shutdown complete.]
+[2025-06-05 19:16:31,471: INFO: server: Finished server process [150785]]
